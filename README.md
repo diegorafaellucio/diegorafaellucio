@@ -1,5 +1,12 @@
-## Hi there 👋
 
+
+
+
+
+
+
+
+### 🚀 Diego Rafael Lucio | Ph.D. in Computer Science  | Full Stack Developer & AI Engineer
 
 <center>
   <table>
@@ -9,17 +16,6 @@
     </tr>   
   </table>
 </center>  
-
-<!--
-**diegorafaellucio/diegorafaellucio** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
----
-
-Here’s your refined GitHub profile description, emphasizing your full-stack development expertise and highlighting your most significant academic contributions:
-
----
-
-### 🚀 Diego Rafael Lucio | Full Stack Developer & AI Engineer
 
 Ph.D. in Computer Science | Full Stack Engineer | AI Researcher
 
