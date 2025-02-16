@@ -1,7 +1,14 @@
 ## Hi there 👋
 
-![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=diegorafaellucio&layout=compact&langs_count=6&theme=dark)
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=diegorafaellucio&show_icons=true&layout=compact&theme=dark)
+
+<center>
+  <table>
+    <tr>
+        <td><img width="400px" align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=diegorafaellucio&hide=html&layout=compact&theme=dark" /></td>
+        <td><img width="495px" align="left" src="https://github-readme-stats.vercel.app/api?username=diegorafaellucio&theme=dark"/></td>
+    </tr>   
+  </table>
+</center>  
 
 <!--
 **diegorafaellucio/diegorafaellucio** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
