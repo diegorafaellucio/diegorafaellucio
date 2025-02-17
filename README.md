@@ -6,7 +6,16 @@ Hi 👋 My name is Diego Rafael Lucio
 Ph.D. in Computer Science | Full Stack Engineer | AI Researcher
 ---------------------------------------------------------------
 
-Ph.D. in Computer Science | Full Stack Engineer | AI Researcher I'm a Full Stack Developer with expertise in modern web technologies, scalable architectures, and AI-driven applications. I have extensive experience building robust, dynamic applications using React, Angular, and Java (Spring Boot) for the backend. My passion lies in crafting high-performance, user-friendly interfaces while integrating cutting-edge AI solutions. 🔹 Frontend: React, Angular, TypeScript, JavaScript 🔹 Backend: Java (Spring Boot, Hibernate, JSF), Python (Django, FastAPI, Sanic) 🔹 AI/ML: PyTorch, TensorFlow, Scikit-learn, Keras 🔹 DevOps: Docker, Kubernetes, CI/CD, AWS 🔹 Databases: MySQL, PostgreSQL, SQLServer 💡 Award-winning developer and AI researcher, securing 1st place in IEEE’s Biometrics Competition (2020). Published in top-tier journals like Nature Communications and Scientific Reports.
+Ph.D. in Computer Science | Full Stack Engineer | AI Researcher I'm a Full Stack Developer with expertise in modern web technologies, scalable architectures, and AI-driven applications. I have extensive experience building robust, dynamic applications using React, Angular, and Java (Spring Boot) for the backend. My passion lies in crafting high-performance, user-friendly interfaces while integrating cutting-edge AI solutions. 
+
+🔹 Frontend: React, Angular, TypeScript, JavaScript 
+🔹 Backend: Java (Spring Boot, Hibernate, JSF), Python (Django, FastAPI, Sanic) 
+🔹 AI/ML: PyTorch, TensorFlow, Scikit-learn, Keras 
+🔹 DevOps: Docker, Kubernetes, CI/CD, AWS 
+🔹 Databases: MySQL, PostgreSQL, SQLServer 
+
+
+💡 Award-winning developer and AI researcher, securing 1st place in IEEE’s Biometrics Competition (2020). Published in top-tier journals like Nature Communications and Scientific Reports.
 
 * 🌍  I'm based in Brazil
 * ✉️  You can contact me at [diegorafaellucio@gmail.com](mailto:diegorafaellucio@gmail.com)
