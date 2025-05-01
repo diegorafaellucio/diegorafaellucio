@@ -1,5 +1,5 @@
 
-Hi 👋 My name is Diego Rafael Lucio
+Hi, My name is Diego Rafael Lucio
 ===================================
 
 
