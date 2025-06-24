@@ -23,7 +23,7 @@ Ph.D. in Computer Science | Full Stack Engineer | AI Researcher I'm a Full Stack
 
 * 🌍  I'm based in Brazil
 * ✉️  You can contact me at [diegorafaellucio@gmail.com](mailto:diegorafaellucio@gmail.com)
-* 🚀  I'm currently working on [Tokenology Labs](http://https://lifemed.ai/)
+//* 🚀  I'm currently working on [Tokenology Labs](http://https://lifemed.ai/)
 * 🧠  I'm learning Explanabe Artificial Inteligence
 * 🤝  I'm open to collaborating on web development, scalable full-stack projects, and AI-enhanced applications.
 
