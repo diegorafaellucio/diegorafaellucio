@@ -39,7 +39,7 @@ Ph.D. in Computer Science | Full Stack Engineer | AI Researcher I'm a Full Stack
 <div align="center" style="display:flex; gap:10px;">
   <img style="height:230px; object-fit:contain;" 
        src="https://github-readme-stats-gamma-ten-87.vercel.app/api/top-langs/?username=diegorafaellucio&layout=compact&theme=dark&include_all_commits=true&count_private=true" /><img style="height:230px; object-fit:contain;" 
-       src="https://github-readme-stats-gamma-ten-87.vercel.app/api?username=diegorafaellucio&theme=dark&include_all_commits=true&count_private=true&show_icons=true" />
+       src="https://github-readme-stats-gamma-ten-87.vercel.app/api?username=diegorafaellucio&theme=dark&include_all_commits=true&count_private=true&show_icons=false" />
 </div>
 
 
