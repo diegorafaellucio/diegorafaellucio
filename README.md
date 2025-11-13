@@ -36,20 +36,12 @@ Ph.D. in Computer Science | Full Stack Engineer | AI Researcher I'm a Full Stack
 
 
 ### Badges
-<center>
-  <table>
-    <tr>
-        <td>
-            <img width="400px" align="left"
-                 src="https://github-readme-stats-gamma-ten-87.vercel.app/api/top-langs/?username=diegorafaellucio&layout=compact&theme=dark&langs_count=20&include_all_commits=true&count_private=true" />
-        </td>
-        <td>
-            <img width="495px" align="left"
-                 src="https://github-readme-stats-gamma-ten-87.vercel.app/api?username=diegorafaellucio&theme=dark&include_all_commits=true&count_private=true&show_icons=true" />
-        </td>
-    </tr>
-  </table>
-</center>
+<div align="center" style="display:flex; gap:10px;">
+  <img style="height:230px; object-fit:contain;" 
+       src="https://github-readme-stats-gamma-ten-87.vercel.app/api/top-langs/?username=diegorafaellucio&layout=compact&theme=dark&include_all_commits=true&count_private=true" />
+  <img style="height:230px; object-fit:contain;" 
+       src="https://github-readme-stats-gamma-ten-87.vercel.app/api?username=diegorafaellucio&theme=dark&include_all_commits=true&count_private=true&show_icons=true" />
+</div>
 
 
 
