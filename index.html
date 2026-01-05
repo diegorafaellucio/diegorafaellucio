@@ -1,310 +1,3 @@
-Skip to content
-You said:
-como usar github pages
-ChatGPT said:
-Dá pra usar o GitHub Pages de 3 jeitos comuns: site simples (HTML/CSS/JS), site com tema/Jekyll, ou site gerado (React/Vite/Next) via build. Aqui vai o caminho mais direto.
-
-1) Site simples (mais fácil)
-Crie um repositório no GitHub (ex: meu-site).
-
-No seu PC, coloque um index.html na raiz do repo.
-
-Faça commit e push.
-
-No GitHub: Settings → Pages
-
-Em Build and deployment:
-
-Source: Deploy from a branch
-
-Branch: main (ou master)
-
-Folder: / (root) (ou /docs se você usa pasta docs)
-
-Salve. Vai aparecer a URL do tipo:
-
-https://seu-usuario.github.io/meu-site/
-
-2) Site do seu usuário (URL sem /repo)
-Se você quer https://seu-usuario.github.io/:
-
-Crie um repo com o nome exato: seu-usuario.github.io
-
-Coloque index.html na raiz
-
-Settings → Pages (geralmente já funciona automático)
-
-A URL fica sem o “/nome-do-repo”.
-
-3) Usando React/Vite (precisa ajustar “base”)
-Resumo do que costuma pegar: caminho de assets/rotas.
-
-Vite + React
-No vite.config.js, configure:
-
-export default {
-  base: "/meu-site/",
-}
-Build:
-
-npm run build
-Deploy (jeito comum): publicar a pasta dist usando GitHub Actions (workflow de Pages) ou branch gh-pages.
-
-Se você me disser qual tecnologia você tá usando (HTML puro, WordPress estático, React/Vite, Next, etc.) e se é site do usuário ou site de repo, eu te passo o passo a passo certinho pro seu caso.
-
-You said:
-esse eh o readme que tenho do projeto da minha pagina nop github, 
-Hi, My name is Diego Rafael Lucio
-===================================
-
-
-Ph.D. in Computer Science | Full Stack Engineer | AI Researcher
----------------------------------------------------------------
-
-Ph.D. in Computer Science | Full Stack Engineer | AI Researcher I'm a Full Stack Developer with expertise in modern web technologies, scalable architectures, and AI-driven applications. I have extensive experience building robust, dynamic applications using React, Angular, and Java (Spring Boot) for the backend. My passion lies in crafting high-performance, user-friendly interfaces while integrating cutting-edge AI solutions. 
-
-🔹 Frontend: React, Angular, TypeScript, JavaScript 
-
-🔹 Backend: Java (Spring Boot, Hibernate, JSF), Python (Django, FastAPI, Sanic) 
-
-🔹 AI/ML: PyTorch, TensorFlow, Scikit-learn, Keras 
-
-🔹 DevOps: Docker, Kubernetes, CI/CD, AWS 
-
-🔹 Databases: MySQL, PostgreSQL, SQLServer 
-
-
-💡 Award-winning developer and AI researcher, securing 1st place in IEEE’s Biometrics Competition (2020). Published in top-tier journals like Nature Communications and Scientific Reports.
-
-* 🌍  I'm based in Brazil
-* ✉️  You can contact me at [diegorafaellucio@gmail.com](mailto:diegorafaellucio@gmail.com)
-* 🧠  I'm learning Explanabe Artificial Inteligence
-* 🤝  I'm open to collaborating on web development, scalable full-stack projects, and AI-enhanced applications.
-<!-- * 🚀  I'm currently working on [Tokenology Labs](http://https://lifemed.ai/)-->
-
-### Skills
-
-
-<p align="left">
-<a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a><a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" width="36" height="36" alt="C++" /></a><a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="36" height="36" alt="Git" /></a><a href="https://www.oracle.com/java/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg" width="36" height="36" alt="Java" /></a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a><a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="TypeScript" /></a><a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/gnubash.svg" width="36" height="36" alt="GNU Bash" /></a><a href="https://www.sublimetext.com/index2" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/sublimetext.svg" width="36" height="36" alt="Sublime Text" /></a><a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/visualstudiocode.svg" width="36" height="36" alt="VS Code" /></a><a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" width="36" height="36" alt="React" /></a><a href="https://angular.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/angularjs-colored.svg" width="36" height="36" alt="Angular" /></a><a href="https://jquery.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/jquery-colored.svg" width="36" height="36" alt="JQuery" /></a><a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /></a><a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg" width="36" height="36" alt="PostgreSQL" /></a><a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" width="36" height="36" alt="MySQL" /></a><a href="https://flask.palletsprojects.com/en/2.0.x/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/flask-colored.svg" width="36" height="36" alt="Flask" /></a><a href="https://docs.nestjs.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nestjs-colored.svg" width="36" height="36" alt="NestJS" /></a><a href="https://fastapi.tiangolo.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/fastapi-colored.svg" width="36" height="36" alt="Fast API" /></a><a href="https://cloud.google.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/googlecloud-colored.svg" width="36" height="36" alt="Google Cloud" /></a><a href="https://wordpress.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/wordpress-colored.svg" width="36" height="36" alt="Wordpress" /></a><a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/django-colored.svg" width="36" height="36" alt="Django" /></a><a href="https://laravel.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/laravel-colored.svg" width="36" height="36" alt="Laravel" /></a><a href="https://aws.amazon.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/aws-colored.svg" width="36" height="36" alt="Amazon Web Services" /></a><a href="https://store.arduino.cc/?gclid=Cj0KCQjw2eilBhCCARIsAG0Pf8uueBifykWcsSS4LPESeGQfxGVKJYnzV7bz471XfknQJy_1VINVWM8aAkLtEALw_wcB" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/arduino-colored.svg" width="36" height="36" alt="Arduino" /></a><a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/docker-colored.svg" width="36" height="36" alt="Docker" /></a><a href="https://apple.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/macos-colored.svg" width="36" height="36" alt="MacOS" /></a><a href="https://www.linux.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/linux-colored.svg" width="36" height="36" alt="Linux" /></a><a href="https://pytorch.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/pytorch-colored.svg" width="36" height="36" alt="PyTorch" /></a><a href="https://www.raspberrypi.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/raspberrypi-colored.svg" width="36" height="36" alt="Raspberry Pi" /></a><a href="https://www.tensorflow.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tensorflow-colored.svg" width="36" height="36" alt="TensorFlow" /></a>
-</p>
-
-
-### Badges
-<div align="center" style="display:flex; gap:10px;">
-  <img style="height:190px; object-fit:contain;" 
-       src="https://github-readme-stats-gamma-ten-87.vercel.app/api/top-langs/?username=diegorafaellucio&layout=compact&theme=dark&include_all_commits=true&count_private=true" />&nbsp;<img style="height:190px; object-fit:contain;" 
-       src="https://github-readme-stats-gamma-ten-87.vercel.app/api?username=diegorafaellucio&theme=dark&include_all_commits=true&count_private=true&show_icons=true" />
-</div>
-
-
-
-
-
-### Socials
-
-<p align="left"> <a href="https://www.github.com/diegorafaellucio" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /> </picture> </a> <a href="https://www.linkedin.com/in/diegolucio" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /> </picture> </a> <a href="http://www.medium.com/diegorafaellucio" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium.svg" width="32" height="32" /> </picture> </a></p>
-
-🔗 [Google Scholar](https://scholar.google.com.br/citations?user=FS_momQAAAAJ&hl=pt-BR) | [LinkedIn](https://www.linkedin.com/in/diegolucio/)
-
-
-
-![](https://komarev.com/ghpvc/?username=diegorafaellucio&color=blue&style=flat)
-
-quero que seja convertido para html para eu criar um github pages.
-ChatGPT said:
-Abaixo está um index.html pronto (baseado no seu README) para você colocar no repositório e publicar no GitHub Pages.
-
-<!doctype html>
-<html lang="pt-BR">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Diego Rafael Lucio | Portfolio</title>
-  <meta name="description" content="Ph.D. in Computer Science | Full Stack Engineer | AI Researcher" />
-  <style>
-    :root{
-      --bg:#0b1220; --card:#111a2e; --text:#e8eefc; --muted:#a9b6d4; --link:#7aa2ff;
-      --border:rgba(255,255,255,.10);
-    }
-    *{box-sizing:border-box}
-    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;background:var(--bg);color:var(--text)}
-    a{color:var(--link);text-decoration:none}
-    a:hover{text-decoration:underline}
-    .wrap{max-width:980px;margin:0 auto;padding:28px 16px 60px}
-    .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:18px}
-    header{display:flex;flex-direction:column;gap:10px;margin-bottom:16px}
-    h1{margin:0;font-size:32px;line-height:1.1}
-    h2{margin:18px 0 10px;font-size:18px}
-    p{margin:8px 0;color:var(--muted);line-height:1.5}
-    .pillrow{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
-    .pill{border:1px solid var(--border);padding:6px 10px;border-radius:999px;color:var(--muted);font-size:13px}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(44px,1fr));gap:10px}
-    .skill{display:flex;align-items:center;justify-content:center;border:1px solid var(--border);border-radius:12px;padding:10px;background:rgba(255,255,255,.03)}
-    .skill img{width:28px;height:28px}
-    .two{display:grid;grid-template-columns:1fr;gap:12px}
-    @media (min-width:860px){.two{grid-template-columns:1fr 1fr}}
-    .badgeimg{width:100%;border-radius:12px;border:1px solid var(--border);background:#0a1020}
-    .socials{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
-    .socials img{width:28px;height:28px}
-    footer{margin-top:18px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;color:var(--muted);font-size:13px}
-  </style>
-</head>
-<body>
-  <main class="wrap">
-    <header class="card">
-      <h1>Hi, My name is Diego Rafael Lucio</h1>
-      <p><strong>Ph.D. in Computer Science | Full Stack Engineer | AI Researcher</strong></p>
-
-      <p>
-        I'm a Full Stack Developer with expertise in modern web technologies, scalable architectures, and AI-driven applications.
-        I have extensive experience building robust, dynamic applications using React, Angular, and Java (Spring Boot) for the backend.
-        My passion lies in crafting high-performance, user-friendly interfaces while integrating cutting-edge AI solutions.
-      </p>
-
-      <div class="pillrow">
-        <span class="pill">🌍 Based in Brazil</span>
-        <span class="pill">🧠 Learning Explainable AI</span>
-        <span class="pill">🤝 Open to collaboration</span>
-        <a class="pill" href="mailto:diegorafaellucio@gmail.com">✉️ diegorafaellucio@gmail.com</a>
-      </div>
-    </header>
-
-    <section class="card">
-      <h2>Focus Areas</h2>
-      <div class="pillrow">
-        <span class="pill">Frontend: React, Angular, TypeScript, JavaScript</span>
-        <span class="pill">Backend: Java (Spring Boot, Hibernate, JSF), Python (Django, FastAPI, Sanic)</span>
-        <span class="pill">AI/ML: PyTorch, TensorFlow, Scikit-learn, Keras</span>
-        <span class="pill">DevOps: Docker, Kubernetes, CI/CD, AWS</span>
-        <span class="pill">Databases: MySQL, PostgreSQL, SQLServer</span>
-      </div>
-
-      <p>
-        💡 Award-winning developer and AI researcher, securing 1st place in IEEE’s Biometrics Competition (2020).
-        Published in top-tier journals like Nature Communications and Scientific Reports.
-      </p>
-    </section>
-
-    <section class="card">
-      <h2>Skills</h2>
-      <div class="grid" aria-label="Skills grid">
-        <div class="skill"><img alt="Python" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg"></div>
-        <div class="skill"><img alt="C++" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg"></div>
-        <div class="skill"><img alt="Git" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg"></div>
-        <div class="skill"><img alt="Java" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg"></div>
-        <div class="skill"><img alt="JavaScript" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg"></div>
-        <div class="skill"><img alt="TypeScript" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg"></div>
-        <div class="skill"><img alt="Bash" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/gnubash.svg"></div>
-        <div class="skill"><img alt="Sublime" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/sublimetext.svg"></div>
-        <div class="skill"><img alt="VS Code" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/visualstudiocode.svg"></div>
-        <div class="skill"><img alt="React" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"></div>
-        <div class="skill"><img alt="Angular" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/angularjs-colored.svg"></div>
-        <div class="skill"><img alt="jQuery" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/jquery-colored.svg"></div>
-        <div class="skill"><img alt="CSS3" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg"></div>
-        <div class="skill"><img alt="PostgreSQL" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg"></div>
-        <div class="skill"><img alt="MySQL" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg"></div>
-        <div class="skill"><img alt="Flask" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/flask-colored.svg"></div>
-        <div class="skill"><img alt="NestJS" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nestjs-colored.svg"></div>
-        <div class="skill"><img alt="FastAPI" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/fastapi-colored.svg"></div>
-        <div class="skill"><img alt="Google Cloud" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/googlecloud-colored.svg"></div>
-        <div class="skill"><img alt="WordPress" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/wordpress-colored.svg"></div>
-        <div class="skill"><img alt="Django" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/django-colored.svg"></div>
-        <div class="skill"><img alt="Laravel" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/laravel-colored.svg"></div>
-        <div class="skill"><img alt="AWS" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/aws-colored.svg"></div>
-        <div class="skill"><img alt="Arduino" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/arduino-colored.svg"></div>
-        <div class="skill"><img alt="Docker" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/docker-colored.svg"></div>
-        <div class="skill"><img alt="macOS" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/macos-colored.svg"></div>
-        <div class="skill"><img alt="Linux" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/linux-colored.svg"></div>
-        <div class="skill"><img alt="PyTorch" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/pytorch-colored.svg"></div>
-        <div class="skill"><img alt="Raspberry Pi" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/raspberrypi-colored.svg"></div>
-        <div class="skill"><img alt="TensorFlow" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tensorflow-colored.svg"></div>
-      </div>
-    </section>
-
-    <section class="card">
-      <h2>Badges</h2>
-      <div class="two">
-        <img class="badgeimg" alt="Top languages"
-          src="https://github-readme-stats-gamma-ten-87.vercel.app/api/top-langs/?username=diegorafaellucio&layout=compact&theme=dark&include_all_commits=true&count_private=true">
-        <img class="badgeimg" alt="GitHub stats"
-          src="https://github-readme-stats-gamma-ten-87.vercel.app/api?username=diegorafaellucio&theme=dark&include_all_commits=true&count_private=true&show_icons=true">
-      </div>
-    </section>
-
-    <section class="card">
-      <h2>Socials</h2>
-      <div class="socials">
-        <a href="https://www.github.com/diegorafaellucio" target="_blank" rel="noreferrer">
-          <img alt="GitHub" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg">
-        </a>
-        <a href="https://www.linkedin.com/in/diegolucio" target="_blank" rel="noreferrer">
-          <img alt="LinkedIn" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg">
-        </a>
-        <a href="http://www.medium.com/diegorafaellucio" target="_blank" rel="noreferrer">
-          <img alt="Medium" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium.svg">
-        </a>
-        <a href="https://scholar.google.com.br/citations?user=FS_momQAAAAJ&hl=pt-BR" target="_blank" rel="noreferrer">
-          Google Scholar
-        </a>
-      </div>
-
-      <p style="margin-top:12px">
-        <img alt="Profile views" src="https://komarev.com/ghpvc/?username=diegorafaellucio&color=blue&style=flat">
-      </p>
-    </section>
-
-    <footer>
-      <span>© <script>document.write(new Date().getFullYear())</script> Diego Rafael Lucio</span>
-      <span>Built for GitHub Pages</span>
-    </footer>
-  </main>
-</body>
-</html>
-Como publicar no GitHub Pages
-Salve isso como index.html na raiz do repo.
-
-Commit/push.
-
-GitHub → Settings → Pages → Deploy from a branch → main → /(root).
-
-Se você me disser o nome do repositório (ex: diegorafaellucio.github.io ou portfolio), eu te digo a URL final exata.
-
-You said:
-Uploaded image
-ChatGPT said:
-
-Thought for 10s
-Pelo print, você está em Settings do seu usuário → Pages, que serve só pra Verified domains (domínio próprio). Isso não ativa o Pages do seu site.
-
-Pra publicar seu HTML:
-
-Vá em seu repositório (ex: portfolio)
-
-Settings → Pages (dentro do repo)
-
-Em Build and deployment:
-
-Source: Deploy from a branch
-
-Branch: main
-
-Folder: / (root)
-
-Salve → ele vai mostrar a URL.
-
-Se quiser https://diegorafaellucio.github.io/, o repo tem que chamar diegorafaellucio.github.io e ter index.html na raiz.
-
-You said:
-Uploaded image
-altera o htl para ter menu lateral com aside e conteudo principla com section.
-
-minhas informacoes pessoais devem ficar a ESQUERDA e  demais .
-
-as skill devem ser ordenadas por grupo tipo front end back end databvases. a imagem em anxo eh semelante a com oquero o conteudo do aside
-ChatGPT said:
-Aqui vai um index.html com menu lateral (aside) à esquerda e conteúdo principal (section) à direita, e skills agrupadas.
-
 <!doctype html>
 <html lang="pt-BR">
 <head>
@@ -392,9 +85,124 @@ Aqui vai um index.html com menu lateral (aside) à esquerda e conteúdo principa
           <svg viewBox="0 0 24 24"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.2.8-.5v-2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.4-1.8-1.4-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.4 3.6 1.1.1-.8.4-1.4.7-1.7-2.6-.3-5.3-1.3-5.3-5.9 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.9 0C17.2 5 18.2 5.3 18.2 5.3c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.6-2.7 5.6-5.3 5.9.4.3.8 1 .8 2v3c0 .3.2.6.8.5A12 12 0 0 0 12 .5z"/></svg>
         </a>
         <a class="soc" href="https://www.linkedin.com/in/diegolucio" target="_blank" rel="noreferrer" aria-label="LinkedIn">
-          <svg viewBox="0 0 24 24"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 24h5V7H0v17zM7.5 7H12v2.3h.1C12.7 8 14.3 6.7 16.7 6.7 21.6 6.7 22.5 10 22.5 14.3V24h-5v-8.4c0-2 0-4.6-2.8-4.6-2.8 0-3.2 2.2-3.2
+          <svg viewBox="0 0 24 24"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 24h5V7H0v17zM7.5 7H12v2.3h.1C12.7 8 14.3 6.7 16.7 6.7 21.6 6.7 22.5 10 22.5 14.3V24h-5v-8.4c0-2 0-4.6-2.8-4.6-2.8 0-3.2 2.2-3.2 4.4V24h-5V7z"/></svg>
+        </a>
+        <a class="soc" href="http://www.medium.com/diegorafaellucio" target="_blank" rel="noreferrer" aria-label="Medium">
+          <svg viewBox="0 0 24 24"><path d="M2 5.5c0-.6.5-1 1-1h18c.6 0 1 .4 1 1v13c0 .6-.4 1-1 1H3c-.5 0-1-.4-1-1v-13zm6.6 3.3c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0L5.6 9c-.4.4-.4 1 0 1.4l1.6 1.6c.4.4 1 .4 1.4 0 .4-.4.4-1 0-1.4l-.9-.9.9-.9zm7.8-1.4c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l.9.9-.9.9c-.4.4-.4 1 0 1.4.4.4 1 .4 1.4 0l1.6-1.6c.4-.4.4-1 0-1.4l-1.6-1.6zM10 15h4c.6 0 1-.4 1-1s-.4-1-1-1h-4c-.6 0-1 .4-1 1s.4 1 1 1z"/></svg>
+        </a>
+        <a class="soc" href="https://scholar.google.com.br/citations?user=FS_momQAAAAJ&hl=pt-BR" target="_blank" rel="noreferrer" aria-label="Google Scholar">
+          <svg viewBox="0 0 24 24"><path d="M12 2 1 7l11 5 9-4.1V17h2V7L12 2zm0 12L3.5 10.2V16c0 3.3 3.9 6 8.5 6s8.5-2.7 8.5-6v-5.8L12 14z"/></svg>
+        </a>
+      </div>
 
+      <div class="divider"></div>
 
+      <div class="contact">
+        <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        <a href="mailto:diegorafaellucio@gmail.com">diegorafaellucio@gmail.com</a>
+      </div>
 
-No file chosenNo file chosen
-ChatGPT is still generating a response...
+      <p class="small" style="margin-top:12px">
+        💡 1º lugar IEEE Biometrics (2020) • Publicações em Nature Communications e Scientific Reports.
+      </p>
+
+      <p style="margin-top:12px">
+        <img alt="Profile views" src="https://komarev.com/ghpvc/?username=diegorafaellucio&color=blue&style=flat">
+      </p>
+    </aside>
+
+    <!-- CONTEÚDO PRINCIPAL (DIREITA) -->
+    <main>
+      <section class="card">
+        <h1>Sobre</h1>
+        <p>
+          Sou Full Stack Developer com foco em tecnologias modernas, arquiteturas escaláveis e aplicações com IA.
+          Experiência com React/Angular no front, Java (Spring Boot) e Python no back, entregando interfaces rápidas e fáceis de usar.
+        </p>
+
+        <div class="chips">
+          <span class="chip">🌍 Brasil</span>
+          <span class="chip">🧠 Explainable AI</span>
+          <span class="chip">🤝 Aberto a colaborações</span>
+        </div>
+      </section>
+
+      <section class="card" style="margin-top:14px">
+        <h2>Skills (por grupo)</h2>
+
+        <div class="group">
+          <h3>Frontend</h3>
+          <div class="icons">
+            <div class="icon"><img alt="React" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"></div>
+            <div class="icon"><img alt="Angular" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/angularjs-colored.svg"></div>
+            <div class="icon"><img alt="TypeScript" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg"></div>
+            <div class="icon"><img alt="JavaScript" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg"></div>
+            <div class="icon"><img alt="CSS3" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg"></div>
+            <div class="icon"><img alt="jQuery" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/jquery-colored.svg"></div>
+          </div>
+        </div>
+
+        <div class="group">
+          <h3>Backend</h3>
+          <div class="icons">
+            <div class="icon"><img alt="Java" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg"></div>
+            <div class="icon"><img alt="Python" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg"></div>
+            <div class="icon"><img alt="Django" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/django-colored.svg"></div>
+            <div class="icon"><img alt="Flask" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/flask-colored.svg"></div>
+            <div class="icon"><img alt="FastAPI" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/fastapi-colored.svg"></div>
+            <div class="icon"><img alt="NestJS" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nestjs-colored.svg"></div>
+          </div>
+        </div>
+
+        <div class="group">
+          <h3>Databases</h3>
+          <div class="icons">
+            <div class="icon"><img alt="PostgreSQL" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg"></div>
+            <div class="icon"><img alt="MySQL" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg"></div>
+          </div>
+        </div>
+
+        <div class="group">
+          <h3>AI / ML</h3>
+          <div class="icons">
+            <div class="icon"><img alt="PyTorch" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/pytorch-colored.svg"></div>
+            <div class="icon"><img alt="TensorFlow" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tensorflow-colored.svg"></div>
+          </div>
+        </div>
+
+        <div class="group">
+          <h3>DevOps & Cloud</h3>
+          <div class="icons">
+            <div class="icon"><img alt="Docker" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/docker-colored.svg"></div>
+            <div class="icon"><img alt="AWS" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/aws-colored.svg"></div>
+            <div class="icon"><img alt="Google Cloud" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/googlecloud-colored.svg"></div>
+            <div class="icon"><img alt="Kubernetes" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/kubernetes-colored.svg"></div>
+            <div class="icon"><img alt="Git" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg"></div>
+            <div class="icon"><img alt="Bash" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/gnubash.svg"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card" style="margin-top:14px">
+        <h2>Badges</h2>
+        <div class="two">
+          <img class="badge" alt="Top languages"
+            src="https://github-readme-stats-gamma-ten-87.vercel.app/api/top-langs/?username=diegorafaellucio&layout=compact&theme=dark&include_all_commits=true&count_private=true">
+          <img class="badge" alt="GitHub stats"
+            src="https://github-readme-stats-gamma-ten-87.vercel.app/api?username=diegorafaellucio&theme=dark&include_all_commits=true&count_private=true&show_icons=true">
+        </div>
+      </section>
+
+      <section class="card" style="margin-top:14px">
+        <h2>Links</h2>
+        <div class="chips">
+          <a class="chip" href="https://www.github.com/diegorafaellucio" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="chip" href="https://www.linkedin.com/in/diegolucio" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="chip" href="http://www.medium.com/diegorafaellucio" target="_blank" rel="noreferrer">Medium</a>
+          <a class="chip" href="https://scholar.google.com.br/citations?user=FS_momQAAAAJ&hl=pt-BR" target="_blank" rel="noreferrer">Google Scholar</a>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
