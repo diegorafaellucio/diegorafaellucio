@@ -496,6 +496,11 @@
           tlRoot.appendChild(renderTimelineItem(it, { showRole: true }));
         });
       });
+
+      var reveals = document.querySelectorAll('.reveal');
+      reveals.forEach(function (el) {
+        el.classList.add('is-visible');
+      });
     } catch (e) {
       showError(e);
       throw e;
