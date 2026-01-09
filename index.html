@@ -909,6 +909,14 @@
       }, { threshold: 0.12 });
 
       els.forEach(function (el) { io.observe(el); });
+
+      setTimeout(function () {
+        els.forEach(function (el) {
+          if (!el.classList.contains('is-visible')) {
+            el.classList.add('is-visible');
+          }
+        });
+      }, 1200);
     })();
   </script>
 </body>
