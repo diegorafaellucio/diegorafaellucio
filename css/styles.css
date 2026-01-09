@@ -742,6 +742,12 @@ a {
     align-items: flex-start;
   }
 
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
   .nav a {
     font-size: 12px;
     letter-spacing: .08em;
