@@ -635,6 +635,24 @@ a {
   margin-top: 12px;
 }
 
+.pub-timeline .t-title {
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 13px;
+  font-weight: 800;
+  color: rgba(15, 23, 42, .65);
+}
+
+.pub-timeline .t-desc {
+  margin-top: 8px;
+}
+
+.pub-timeline .pub-title {
+  font-weight: 900;
+  color: rgba(15, 23, 42, .85);
+  line-height: 1.5;
+}
+
 .badge {
   width: 100%;
   height: 190px;
@@ -741,5 +759,18 @@ a {
 
   .skill-grid {
     grid-template-columns: 1fr;
+  }
+
+  .pub-head {
+    display: none;
+  }
+
+  .pub-row {
+    grid-template-columns: 1fr;
+  }
+
+  .pub-cited,
+  .pub-year {
+    text-align: left;
   }
 }
