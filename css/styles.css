@@ -496,8 +496,9 @@ a {
 .skill-icon {
   width: 54px;
   height: 54px;
-  display: inline-grid;
-  place-items: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 12px;
   border: 1px solid var(--border-color);
   background: #fff;
@@ -507,6 +508,11 @@ a {
 .skill-badges .skill-icon {
   width: 54px !important;
   height: 54px !important;
+  min-width: 54px !important;
+  min-height: 54px !important;
+  max-width: 54px !important;
+  max-height: 54px !important;
+  flex: 0 0 54px !important;
 }
 
 .skill-icon img {
@@ -518,6 +524,15 @@ a {
 
 .skill-badges .skill-icon img,
 .skill-badges img {
+  width: 34px !important;
+  height: 34px !important;
+  max-width: 34px !important;
+  max-height: 34px !important;
+  object-fit: contain !important;
+  display: block !important;
+}
+
+#skills .skill-card img {
   width: 34px !important;
   height: 34px !important;
   max-width: 34px !important;
