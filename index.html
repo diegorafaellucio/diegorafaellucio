@@ -9,90 +9,260 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <main id="container">
-    <aside id="bio-container">
-      <h2>Diego Rafael Lucio</h2>
-      <img id="bio-image" src="img/profile.jpg" alt="Diego Rafael Lucio">
-      <p>Hi, my name is Diego Rafael Lucio and I'm <span class="highlight">Ph.D. in Computer Science</span>, <span class="highlight">Full Stack Engineer</span> and <span class="highlight">AI Researcher</span>.</p>
-      <p id="welcome-text">Welcome!</p>
-      <ul id="social-container">
-        <li><a href="https://www.github.com/diegorafaellucio" target="_blank" rel="noreferrer"><ion-icon name="logo-github"></ion-icon></a></li>
-        <li><a href="https://www.linkedin.com/in/diegolucio" target="_blank" rel="noreferrer"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-        <li><a href="http://www.medium.com/diegorafaellucio" target="_blank" rel="noreferrer"><ion-icon name="logo-medium"></ion-icon></a></li>
-        <li><a href="https://scholar.google.com.br/citations?user=FS_momQAAAAJ&hl=pt-BR" target="_blank" rel="noreferrer"><ion-icon name="school-outline"></ion-icon></a></li>
-      </ul>
-      <div id="email-container">
-        <ion-icon name="mail-outline"></ion-icon><a href="mailto:diegorafaellucio@gmail.com">diegorafaellucio@gmail.com</a>
-      </div>
-    </aside>
-    <section id="about-container">
-      <h1 id="name">Diego Rafael Lucio</h1>
-      <p id="title"><span class="highlight">Ph.D. in Computer Science</span> | <span class="highlight">Backend Engineer</span> | AI Researcher</p>
-      <p class="description">I'm a Backend Engineer focused on building scalable, reliable services and APIs. I have extensive experience delivering production systems with <span class="highlight">Java (Spring Boot)</span> and <span class="highlight">Python</span> (Django/FastAPI), designing clean architectures, and integrating databases and cloud infrastructure.</p>
-      <p class="description">I also collaborate across the stack when needed (React/Angular), but my main focus is backend engineering and AI-enabled features that improve product value.</p>
-      <ul id="highlights">
-        <li><strong>Based in:</strong> Brazil</li>
-        <li><strong>Contact:</strong> <a href="mailto:diegorafaellucio@gmail.com">diegorafaellucio@gmail.com</a></li>
-        <li><strong>Learning:</strong> Explainable Artificial Intelligence</li>
-        <li><strong>Open to:</strong> collaborating on backend services, scalable architectures, and AI-enhanced applications</li>
-        <li><strong>Recognition:</strong> 1st place in IEEE’s Biometrics Competition (2020) • Published in Nature Communications and Scientific Reports</li>
-      </ul>
-      <div class="cta-buttons">
-        <a href="https://github.com/diegorafaellucio?tab=repositories" id="btn-repos" target="_blank" rel="noreferrer"><ion-icon name="logo-github"></ion-icon> <span>Repositories</span></a>
-        <a href="#skills" id="btn-projects"><ion-icon name="flash-outline"></ion-icon> <span>See Skills</span></a>
-        <a href="#badges-section-title" id="btn-badges"><ion-icon name="ribbon-outline"></ion-icon> <span>Badges</span></a>
-      </div>
-      <h2 id="skills-section-title">Skills</h2>
-      <p class="description" id="skills">Technologies I work with:</p>
-      <div id="skills-container">
-        <div class="skills-box">
-          <p class="skills-title">Backend</p>
-          <i class="devicon-java-plain colored"></i>
-          <i class="devicon-spring-original colored"></i>
-          <i class="devicon-python-plain colored"></i>
-          <i class="devicon-django-plain colored"></i>
-          <i class="devicon-fastapi-plain colored"></i>
-        </div>
-        <div class="skills-box">
-          <p class="skills-title">Frontend</p>
-          <i class="devicon-react-original colored"></i>
-          <i class="devicon-angularjs-plain colored"></i>
-          <i class="devicon-typescript-plain colored"></i>
-          <i class="devicon-javascript-plain colored"></i>
-          <i class="devicon-html5-plain colored"></i>
-          <i class="devicon-css3-plain colored"></i>
-        </div>
-        <div class="skills-box">
-          <p class="skills-title">AI / ML</p>
-          <i class="devicon-pytorch-original colored"></i>
-          <i class="devicon-tensorflow-original colored"></i>
-        </div>
-        <div class="skills-box">
-          <p class="skills-title">DevOps</p>
-          <i class="devicon-docker-plain colored"></i>
-          <i class="devicon-kubernetes-plain colored"></i>
-          <i class="devicon-amazonwebservices-original colored"></i>
-        </div>
-        <div class="skills-box">
-          <p class="skills-title">Databases</p>
-          <i class="devicon-mysql-plain colored"></i>
-          <i class="devicon-postgresql-plain colored"></i>
-          <i class="devicon-microsoftsqlserver-plain colored"></i>
-        </div>
-        <div class="skills-box">
-          <p class="skills-title">Tools</p>
-          <i class="devicon-git-plain colored"></i>
-          <i class="devicon-linux-plain colored"></i>
-        </div>
-      </div>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#top">Diego Rafael Lucio</a>
+      <nav class="nav">
+        <a href="#experience"><ion-icon name="briefcase-outline"></ion-icon><span>Experience</span></a>
+        <a href="#education"><ion-icon name="school-outline"></ion-icon><span>Education</span></a>
+        <a href="#skills"><ion-icon name="code-slash-outline"></ion-icon><span>Skills</span></a>
+        <a href="#badges"><ion-icon name="ribbon-outline"></ion-icon><span>Badges</span></a>
+        <a href="#contact"><ion-icon name="mail-outline"></ion-icon><span>Contact</span></a>
+      </nav>
+    </div>
+  </header>
 
-      <h2 id="badges-section-title">Badges</h2>
-      <div id="badges-container">
-        <img class="badge" alt="Top languages" src="https://github-readme-stats-gamma-ten-87.vercel.app/api/top-langs/?username=diegorafaellucio&layout=compact&theme=dark&include_all_commits=true&count_private=true">
-        <img class="badge" alt="GitHub stats" src="https://github-readme-stats-gamma-ten-87.vercel.app/api?username=diegorafaellucio&theme=dark&include_all_commits=true&count_private=true&show_icons=true">
+  <main id="top" class="page">
+    <section id="about" class="section reveal">
+      <div class="hero-card">
+        <div class="hero-photo">
+          <div class="hero-photo-round">
+            <img class="hero-photo-img" src="img/profile.jpg" alt="Diego Rafael Lucio">
+          </div>
+        </div>
+        <div class="hero-info">
+          <h1 class="hero-name">Diego Rafael Lucio</h1>
+          <p class="hero-role">Ph.D. in Computer Science<br>Backend Engineer • AI Researcher</p>
+          <dl class="hero-details" aria-label="Profile details">
+            <div class="detail">
+              <dt class="detail-k">Email</dt>
+              <dd class="detail-v">
+                <a id="email-link" href="mailto:diegorafaellucio@gmail.com">diegorafaellucio@gmail.com</a>
+                <button id="copy-email" class="icon-btn" type="button" aria-label="Copy email address" title="Copy">
+                  <ion-icon name="copy-outline"></ion-icon>
+                </button>
+                <span id="copy-feedback" class="sr-only" role="status" aria-live="polite"></span>
+              </dd>
+            </div>
+            <div class="detail">
+              <dt class="detail-k">Location</dt>
+              <dd class="detail-v">Brazil</dd>
+            </div>
+            <div class="detail">
+              <dt class="detail-k">Focus</dt>
+              <dd class="detail-v">
+                <span class="chips">
+                  <span class="chip">Backend</span>
+                  <span class="chip">APIs</span>
+                  <span class="chip">Scalable systems</span>
+                  <span class="chip">AI-enabled apps</span>
+                </span>
+              </dd>
+            </div>
+          </dl>
+
+          <div class="quick-links" aria-label="Quick links">
+            <a class="q-link" href="https://www.github.com/diegorafaellucio" target="_blank" rel="noreferrer"><ion-icon name="logo-github"></ion-icon><span>GitHub</span></a>
+            <a class="q-link" href="https://www.linkedin.com/in/diegolucio" target="_blank" rel="noreferrer"><ion-icon name="logo-linkedin"></ion-icon><span>LinkedIn</span></a>
+            <a class="q-link" href="https://scholar.google.com.br/citations?user=FS_momQAAAAJ&hl=pt-BR" target="_blank" rel="noreferrer"><ion-icon name="school-outline"></ion-icon><span>Scholar</span></a>
+          </div>
+        </div>
+        <div class="hero-presentation">
+          <p class="section-lead">Backend Engineer focused on building scalable, reliable services and APIs with <span class="highlight">Java (Spring Boot)</span> and <span class="highlight">Python</span> (Django/FastAPI). I also work with AI-enabled features and data-driven systems.</p>
+          <ul class="highlights">
+            <li><strong>Learning:</strong> Explainable Artificial Intelligence</li>
+            <li><strong>Open to:</strong> collaborating on backend services, scalable architectures, and AI-enhanced applications</li>
+            <li><strong>Recognition:</strong> 1st place in IEEE’s Biometrics Competition (2020) • Published in Nature Communications and Scientific Reports</li>
+          </ul>
+        </div>
       </div>
     </section>
+
+    <section id="experience" class="section reveal">
+      <h2 class="section-title section-title-spaced">Experience</h2>
+      <div class="timeline">
+        <div class="t-item">
+          <div class="t-left">
+            <div class="t-period">Current</div>
+            <div class="t-role">Backend Engineer</div>
+          </div>
+          <div class="t-mid"><span class="t-dot"></span></div>
+          <div class="t-right">
+            <div class="t-title">Scalable services & APIs</div>
+            <div class="t-desc">Building backend systems with Java (Spring Boot) and Python (Django/FastAPI), integrating databases, cloud infrastructure and CI/CD.</div>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-left">
+            <div class="t-period">Research</div>
+            <div class="t-role">AI Researcher</div>
+          </div>
+          <div class="t-mid"><span class="t-dot"></span></div>
+          <div class="t-right">
+            <div class="t-title">Applied AI</div>
+            <div class="t-desc">Research and development of AI-driven solutions and publications in peer-reviewed venues.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section reveal">
+      <h2 class="section-title section-title-spaced">Education</h2>
+      <div class="timeline">
+        <div class="t-item">
+          <div class="t-left">
+            <div class="t-period">Ph.D.</div>
+            <div class="t-role">Computer Science</div>
+          </div>
+          <div class="t-mid"><span class="t-dot"></span></div>
+          <div class="t-right">
+            <div class="t-title">Ph.D. in Computer Science</div>
+            <div class="t-desc">Research background and practical engineering experience building scalable systems and AI-enabled applications.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section reveal">
+      <h2 class="section-title section-title-spaced">Skills</h2>
+      <div class="skill-grid">
+        <div class="skill-card">
+          <h3>Backend</h3>
+          <div class="skill-icons">
+            <i class="devicon-java-plain colored"></i>
+            <i class="devicon-spring-original colored"></i>
+            <i class="devicon-python-plain colored"></i>
+            <i class="devicon-django-plain colored"></i>
+            <i class="devicon-fastapi-plain colored"></i>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Databases</h3>
+          <div class="skill-icons">
+            <i class="devicon-postgresql-plain colored"></i>
+            <i class="devicon-mysql-plain colored"></i>
+            <i class="devicon-microsoftsqlserver-plain colored"></i>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>DevOps</h3>
+          <div class="skill-icons">
+            <i class="devicon-docker-plain colored"></i>
+            <i class="devicon-kubernetes-plain colored"></i>
+            <i class="devicon-amazonwebservices-original colored"></i>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>AI / ML</h3>
+          <div class="skill-icons">
+            <i class="devicon-pytorch-original colored"></i>
+            <i class="devicon-tensorflow-original colored"></i>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Frontend</h3>
+          <div class="skill-icons">
+            <i class="devicon-react-original colored"></i>
+            <i class="devicon-angularjs-plain colored"></i>
+            <i class="devicon-typescript-plain colored"></i>
+            <i class="devicon-javascript-plain colored"></i>
+            <i class="devicon-html5-plain colored"></i>
+            <i class="devicon-css3-plain colored"></i>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Tools</h3>
+          <div class="skill-icons">
+            <i class="devicon-git-plain colored"></i>
+            <i class="devicon-linux-plain colored"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="badges" class="section reveal">
+      <h2 class="section-title section-title-spaced">Badges</h2>
+      <div class="badges">
+        <img class="badge" alt="Top languages" src="https://github-readme-stats-gamma-ten-87.vercel.app/api/top-langs/?username=diegorafaellucio&layout=compact&theme=default&include_all_commits=true&count_private=true">
+        <img class="badge" alt="GitHub stats" src="https://github-readme-stats-gamma-ten-87.vercel.app/api?username=diegorafaellucio&theme=default&include_all_commits=true&count_private=true&show_icons=true">
+      </div>
+    </section>
+
+    <section id="contact" class="section reveal">
+      <h2 class="section-title section-title-spaced">Contact</h2>
+      <div class="contact-grid">
+        <a class="contact-card" href="mailto:diegorafaellucio@gmail.com"><ion-icon name="mail-outline"></ion-icon><span>diegorafaellucio@gmail.com</span></a>
+        <a class="contact-card" href="https://www.github.com/diegorafaellucio" target="_blank" rel="noreferrer"><ion-icon name="logo-github"></ion-icon><span>github.com/diegorafaellucio</span></a>
+        <a class="contact-card" href="https://www.linkedin.com/in/diegolucio" target="_blank" rel="noreferrer"><ion-icon name="logo-linkedin"></ion-icon><span>linkedin.com/in/diegolucio</span></a>
+        <a class="contact-card" href="https://scholar.google.com.br/citations?user=FS_momQAAAAJ&hl=pt-BR" target="_blank" rel="noreferrer"><ion-icon name="school-outline"></ion-icon><span>Google Scholar</span></a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>© <span id="year"></span> Diego Rafael Lucio</span>
+    </footer>
   </main>
   <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+  <script>
+    (function () {
+      var year = document.getElementById('year');
+      if (year) year.textContent = String(new Date().getFullYear());
+
+      var copyBtn = document.getElementById('copy-email');
+      var emailLink = document.getElementById('email-link');
+      var feedback = document.getElementById('copy-feedback');
+
+      function announce(text) {
+        if (!feedback) return;
+        feedback.textContent = text;
+        setTimeout(function () { feedback.textContent = ''; }, 1500);
+      }
+
+      if (copyBtn && emailLink) {
+        copyBtn.addEventListener('click', function () {
+          var email = emailLink.textContent || '';
+          if (!email) return;
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(email).then(function () {
+              announce('Email copied');
+            }).catch(function () {
+              announce('Copy failed');
+            });
+          } else {
+            try {
+              var t = document.createElement('textarea');
+              t.value = email;
+              t.style.position = 'fixed';
+              t.style.opacity = '0';
+              document.body.appendChild(t);
+              t.select();
+              document.execCommand('copy');
+              document.body.removeChild(t);
+              announce('Email copied');
+            } catch (e) {
+              announce('Copy failed');
+            }
+          }
+        });
+      }
+
+      var els = document.querySelectorAll('.reveal');
+      if (!('IntersectionObserver' in window)) {
+        els.forEach(function (el) { el.classList.add('is-visible'); });
+        return;
+      }
+
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            io.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+
+      els.forEach(function (el) { io.observe(el); });
+    })();
+  </script>
 </body>
 </html>
