@@ -504,11 +504,24 @@ a {
   overflow: visible;
 }
 
+.skill-badges .skill-icon {
+  width: 54px !important;
+  height: 54px !important;
+}
+
 .skill-icon img {
   width: 34px;
   height: 34px;
   display: block;
   object-fit: contain;
+}
+
+.skill-badges .skill-icon img,
+.skill-badges img {
+  width: 34px !important;
+  height: 34px !important;
+  max-width: 34px !important;
+  max-height: 34px !important;
 }
 
 .skill-icon ion-icon {
