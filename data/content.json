@@ -1,0 +1,696 @@
+{
+  "site": {
+    "title": "Diego Rafael Lucio | Portfolio",
+    "brand": {
+      "text": "Diego Rafael Lucio",
+      "href": "#top"
+    }
+  },
+  "about": {
+    "photo": {
+      "src": "img/profile.jpg",
+      "alt": "Diego Rafael Lucio"
+    },
+    "name": "Diego Rafael Lucio",
+    "roleHtml": "Ph.D. in Computer Science<br>Backend Engineer • AI Researcher",
+    "details": {
+      "email": "diegorafaellucio@gmail.com",
+      "phone": "+55 (44) 99950-0352",
+      "phoneHref": "tel:+5544999500352",
+      "location": "Maringá, Paraná, Brazil",
+      "focus": [
+        "Backend",
+        "Microservices",
+        "AI / ML",
+        "Computer Vision"
+      ]
+    },
+    "quickLinks": [
+      {
+        "href": "https://www.github.com/diegorafaellucio",
+        "label": "GitHub",
+        "icon": "logo-github"
+      },
+      {
+        "href": "https://www.linkedin.com/in/diegolucio",
+        "label": "LinkedIn",
+        "icon": "logo-linkedin"
+      },
+      {
+        "href": "https://scholar.google.com.br/citations?user=FS_momQAAAAJ&hl=pt-BR",
+        "label": "Scholar",
+        "icon": "school-outline"
+      }
+    ],
+    "leadHtml": "Ph.D. in Computer Science with 10+ years of experience combining full-stack development and advanced research in Artificial Intelligence. Senior developer with solid experience in modern backend technologies (<span class=\"highlight\">Python</span> with Django/FastAPI and <span class=\"highlight\">Java</span> with Spring Boot) and frontend (React.js/Next.js). Expert in Machine Learning and Computer Vision, with a track record delivering biometrics and facial recognition solutions in production.",
+    "highlights": [
+      "<strong>Backend:</strong> FastAPI, Django REST Framework, Spring Boot, Kafka, RabbitMQ, Redis, SQL/NoSQL",
+      "<strong>ML/CV:</strong> PyTorch, TensorFlow, OpenCV, ONNX Runtime, TensorRT",
+      "<strong>DevOps:</strong> Docker, Kubernetes, CI/CD, AWS, Linux"
+    ]
+  },
+  "sections": {
+    "experience": [
+      {
+        "period": "Jan 2024 – Present",
+        "role": "Sr ML Engineer / Backend Dev",
+        "title": "Tokenology (Miami, USA)",
+        "bullets": [
+          "Led facial recognition and liveness detection systems (Vision Transformers, attention models).",
+          "Implemented fraud detection in liveness detection (deepfake detection and presentation attacks).",
+          "Built biometric verification pipelines with high accuracy/low latency using PyTorch + ONNX Runtime.",
+          "Integrated biometrics with Spring Boot microservices for scalability and security.",
+          "Deployed distributed caching/session management, reducing API response times by 40%."
+        ],
+        "tech": "Python (PyTorch, ONNX, FastAPI), Java (Spring Boot), Docker, AWS, Redis"
+      },
+      {
+        "period": "Jan 2023 – Dec 2023",
+        "role": "ML Consultant",
+        "title": "Tokenology (Miami, USA)",
+        "bullets": [
+          "Developed facial recognition models (ArcFace/CosFace) for challenging scenarios.",
+          "Implemented liveness detection with deep learning for motion and facial expression.",
+          "Created scalable FastAPI APIs for asynchronous biometric verification processing.",
+          "Optimized real-time inference with ONNX Runtime and TensorRT.",
+          "Implemented pub/sub and caching for model predictions, improving performance by 35%."
+        ],
+        "tech": "Python (PyTorch, TensorRT, FastAPI), Java (Spring Boot), Docker, AWS"
+      },
+      {
+        "period": "Jan 2024 – Aug 2025",
+        "role": "Sr AI Consultant",
+        "title": "Ecotrace (Vinhedo, Brazil)",
+        "bullets": [
+          "Leading expansion and optimization projects of the computer vision system for new industrial units.",
+          "Acting as technical mentor for the ML/CV team, sharing knowledge and best practices.",
+          "Developing new features and optimizations for the carcass classification system.",
+          "Designed graph database solutions for product traceability relationships and advanced analytics."
+        ],
+        "tech": "Python (PyTorch, OpenCV, Django), Docker, Kubernetes, AWS, Neo4j"
+      },
+      {
+        "period": "Nov 2023 – Dec 2023",
+        "role": "Sr AI Engineer",
+        "title": "Ecotrace (Vinhedo, Brazil)",
+        "bullets": [
+          "Led expansion of the computer vision system to multiple industrial units.",
+          "Improved inference pipeline, reducing processing time by 35%.",
+          "Developed new modules for product quality analysis and traceability.",
+          "Coordinated ML/CV team, establishing development processes and methodologies.",
+          "Architected hybrid data solutions using caching + graph databases for traceability networks (50% faster queries)."
+        ],
+        "tech": "Python (PyTorch, OpenCV, Django), Docker, Kubernetes, AWS, CUDA, Neo4j"
+      },
+      {
+        "period": "Nov 2022 – Oct 2023",
+        "role": "Computer Vision Consultant",
+        "title": "Ecotrace (Vinhedo, Brazil)",
+        "bullets": [
+          "Developed CV system for automatic bovine carcass classification, +25% processing efficiency.",
+          "Implemented segmentation and quality analysis using scikit-image and PIL.",
+          "Built REST API with Django integrating the CV system with the ERP.",
+          "Optimized real-time inference using CUDA and TensorRT.",
+          "Deployed caching for models/results, reducing DB load by 60% and improving API response times."
+        ],
+        "tech": "Python (PyTorch, OpenCV, Django, scikit-image, PIL), Docker, Kubernetes, AWS, CUDA, TensorRT, Redis, Neo4j"
+      },
+      {
+        "period": "Jan 2023 – Oct 2023",
+        "role": "ML Consultant",
+        "title": "Hypeone (Curitiba, Brazil)",
+        "bullets": [
+          "Mentored ML and development teams as technical consultant.",
+          "Optimized microservices architecture with Spring Boot and Spring Cloud.",
+          "Improved financial transaction processing services using Java/Spring.",
+          "Developed new web features using Angular and TypeScript.",
+          "Designed backend solutions with caching + graph DBs for fraud detection patterns, +45% processing speed."
+        ],
+        "tech": "Java (Spring Boot, Spring Cloud), Python (scikit-learn, FastAPI), Angular, Kafka, AWS, Redis, Neo4j"
+      },
+      {
+        "period": "May 2021 – Dec 2022",
+        "role": "Sr Software Engineer",
+        "title": "Hypeone (Curitiba, Brazil)",
+        "bullets": [
+          "Developed a complete financial system using Java (Spring Boot), including transaction processing and risk analysis modules.",
+          "Implemented microservices architecture using Spring Cloud, Service Discovery and API Gateway.",
+          "Created ML models using scikit-learn and PyCaret for financial process automation.",
+          "Developed modern and responsive web interfaces using Angular and TypeScript.",
+          "Integrated systems using Apache Kafka for asynchronous and real-time processing.",
+          "Architected distributed caching/session management, reducing database queries by 70% during peak transaction periods."
+        ],
+        "tech": "Java (Spring Boot, Spring Cloud), Python (scikit-learn, FastAPI), Angular, Kafka, Docker, Redis, Neo4j"
+      },
+      {
+        "period": "Oct 2016 – May 2022",
+        "role": "PhD Researcher",
+        "title": "Federal University of Paraná (VRI) (Curitiba, Brazil)",
+        "bullets": [
+          "Developed deep learning models with PyTorch and TensorFlow for biometric recognition (periocular).",
+          "Implemented advanced image processing and computer vision techniques.",
+          "Published in high-impact journals and conferences.",
+          "Collaborated on international biometric research projects."
+        ],
+        "tech": "Python (PyTorch, TensorFlow, OpenCV), Docker, CUDA"
+      },
+      {
+        "period": "Oct 2018 – May 2021",
+        "role": "Sr Data Scientist",
+        "title": "Wasys (Curitiba, Brazil)",
+        "bullets": [
+          "Developed ERP modules using Java (JSF, Spring Boot) for finance and inventory control.",
+          "Implemented microservices architecture with Spring Boot.",
+          "Built OCR pipeline using TensorFlow and OpenCV, improving accuracy by 18%.",
+          "Created web interfaces using JSF, PrimeFaces and Bootstrap.",
+          "Integrated systems with REST APIs and Apache Kafka messaging.",
+          "Modeled business relationships in Neo4j for analytics (+30% decision-making improvement).",
+          "Deployed caching/session management, improving responsiveness for concurrent users by 55%."
+        ],
+        "tech": "Java (Spring Boot, JSF, Hibernate), Python (TensorFlow, OpenCV), Docker, Kubernetes, Apache Kafka, Neo4j, Redis"
+      },
+      {
+        "period": "Oct 2016 – Dec 2020",
+        "role": "Sr Software Engineer",
+        "title": "Unicesumar (Maringá, Brazil)",
+        "bullets": [
+          "Built facial recognition system for online exam monitoring, reducing academic fraud.",
+          "Developed predictive models for student dropout risk, reducing dropout rates by 87%.",
+          "Created dashboards with Plotly and Streamlit for academic metrics.",
+          "Developed Django REST API integrating facial recognition with the LMS.",
+          "Modeled student behavioral patterns with graph databases to improve early intervention.",
+          "Deployed caching for student session data to reduce DB load and improve responsiveness."
+        ],
+        "tech": "Python (PyTorch, scikit-learn, Django, OpenCV, Pandas, Plotly, Streamlit), Docker, AWS, Redis, Neo4j"
+      },
+      {
+        "period": "Feb 2014 – Aug 2016",
+        "role": "Master's Researcher",
+        "title": "State University of Maringá (Maringá, Brazil)",
+        "bullets": [
+          "Developed computer vision application for automatic bird species classification from vocalizations.",
+          "Implemented audio-to-spectrogram pipelines using signal processing techniques.",
+          "Extracted texture descriptors and trained classification models using SVM."
+        ],
+        "tech": "Python, MATLAB, OpenCV, scikit-learn, librosa"
+      },
+      {
+        "period": "Jan 2014 – Dec 2016",
+        "role": "Sr Biometrics Researcher / Full Stack Dev",
+        "title": "Seebot (Maringá, Brazil)",
+        "bullets": [
+          "Developed computer vision algorithms with Python and OpenCV for biometric systems.",
+          "Implemented embedded systems on Raspberry Pi for real-time image capture and processing.",
+          "Built web interfaces with PHP and Java for biometric data visualization and management.",
+          "Integrated Arduino hardware with software for biometric capture automation."
+        ],
+        "tech": "Python (OpenCV, scikit-learn), Java, PHP, Arduino, Raspberry Pi"
+      },
+      {
+        "period": "Aug 2013 – Feb 2014",
+        "role": "Junior Developer",
+        "title": "Elotech Informática e Sistemas Ltda (Maringá, Brazil)",
+        "bullets": [
+          "Developed solutions in Adobe Flex and Java for transparency portal.",
+          "Collaborated with team to integrate new features.",
+          "Applied coding practices to optimize performance and UX."
+        ],
+        "tech": "Adobe Flex, Java, JSP, JSF, JSTL, MySQL"
+      },
+      {
+        "period": "Mar 2012 – Dec 2013",
+        "role": "Junior Developer",
+        "title": "Visãonet Telecom (Goioerê, Brazil)",
+        "bullets": [
+          "Developed new features for internal web systems in Java and PHP.",
+          "Maintained e-commerce sites on the MAGENTO framework.",
+          "Collaborated with team for smooth operations and updates."
+        ],
+        "tech": "Java, PHP, MAGENTO, MySQL"
+      },
+      {
+        "period": "Apr 2011 – Mar 2012",
+        "role": "Systems Support Analyst",
+        "title": "Visãonet Telecom (Goioerê, Brazil)",
+        "bullets": [
+          "Implemented commercial automation systems to streamline operations.",
+          "Developed new software features in response to client requests.",
+          "Collaborated with teams to ensure seamless feature integration."
+        ],
+        "tech": "Delphi, Firebird, Java, PHP, MySQL"
+      },
+      {
+        "period": "Jul 2008 – Apr 2010",
+        "role": "Call Center Operator",
+        "title": "Visãonet Telecom (Goioerê, Brazil)",
+        "bullets": [
+          "Provided telephone support to resolve internet access issues.",
+          "Contributed to fixing bugs and improving company products.",
+          "Helped streamline customer support operations."
+        ],
+        "tech": "PHP, MySQL, Elastix"
+      },
+      {
+        "period": "Jan 2006 – Jun 2008",
+        "role": "General Assistant",
+        "title": "Papelaria Famsit (Goioerê, Brazil)",
+        "bullets": [
+          "Managed cleaning tasks, photocopying, and customer service.",
+          "Maintained a clean and organized workspace.",
+          "Supported operational efficiency and customer satisfaction."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "period": "2016 – 2022",
+        "role": "Ph.D.",
+        "title": "Ph.D. in Computer Science — Federal University of Paraná",
+        "desc": "Curitiba, Paraná, Brazil"
+      },
+      {
+        "period": "2014 – 2016",
+        "role": "M.Sc.",
+        "title": "Master's in Computer Science — State University of Maringá",
+        "desc": "Maringá, Paraná, Brazil"
+      },
+      {
+        "period": "2008 – 2011",
+        "role": "B.Sc.",
+        "title": "Bachelor's in Internet Systems Technology — Federal University of Technology – Paraná",
+        "desc": "Campo Mourão, Paraná, Brazil"
+      }
+    ],
+    "skills": [
+      {
+        "group": "Backend Development",
+        "items": [
+          {
+            "label": "Python",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+          },
+          {
+            "label": "Java",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+          },
+          {
+            "label": "Spring Boot",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+          },
+          {
+            "label": "Django",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
+          },
+          {
+            "label": "FastAPI",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg"
+          },
+          {
+            "label": "Django REST Framework",
+            "type": "img",
+            "src": "https://cdn.simpleicons.org/django/4f46e5"
+          },
+          {
+            "label": "Flask",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"
+          },
+          {
+            "label": "Microservices",
+            "type": "img",
+            "src": "https://cdn.simpleicons.org/openapiinitiative/4f46e5"
+          },
+          {
+            "label": "Apache Kafka",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg"
+          },
+          {
+            "label": "RabbitMQ",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rabbitmq/rabbitmq-original.svg"
+          },
+          {
+            "label": "Redis Streams",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg"
+          }
+        ]
+      },
+      {
+        "group": "Databases",
+        "items": [
+          {
+            "label": "PostgreSQL",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+          },
+          {
+            "label": "MySQL",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+          },
+          {
+            "label": "SQL Server",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg"
+          },
+          {
+            "label": "MongoDB",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+          },
+          {
+            "label": "Redis",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg"
+          },
+          {
+            "label": "Neo4j",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/neo4j/neo4j-original.svg"
+          }
+        ]
+      },
+      {
+        "group": "Python Ecosystem",
+        "items": [
+          {
+            "label": "PyTorch",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"
+          },
+          {
+            "label": "TensorFlow",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+          },
+          {
+            "label": "scikit-learn",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg"
+          },
+          {
+            "label": "Pandas",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+          },
+          {
+            "label": "NumPy",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+          },
+          {
+            "label": "OpenCV",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg"
+          },
+          {
+            "label": "ONNX Runtime",
+            "type": "img",
+            "src": "https://cdn.simpleicons.org/onnx/4f46e5"
+          },
+          {
+            "label": "TensorRT",
+            "type": "img",
+            "src": "https://cdn.simpleicons.org/nvidia/4f46e5"
+          }
+        ]
+      },
+      {
+        "group": "DevOps",
+        "items": [
+          {
+            "label": "Docker",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+          },
+          {
+            "label": "Kubernetes",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"
+          },
+          {
+            "label": "AWS",
+            "type": "ion",
+            "name": "logo-amazon"
+          },
+          {
+            "label": "Linux",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+          },
+          {
+            "label": "Jenkins",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg"
+          },
+          {
+            "label": "CI/CD",
+            "type": "img",
+            "src": "https://cdn.simpleicons.org/githubactions/4f46e5"
+          }
+        ]
+      },
+      {
+        "group": "Web Development",
+        "items": [
+          {
+            "label": "React",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+          },
+          {
+            "label": "Next.js",
+            "type": "img",
+            "src": "https://cdn.simpleicons.org/nextdotjs/4f46e5"
+          },
+          {
+            "label": "Angular",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg"
+          },
+          {
+            "label": "TypeScript",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+          },
+          {
+            "label": "JavaScript",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+          }
+        ]
+      },
+      {
+        "group": "Methods & Tools",
+        "items": [
+          {
+            "label": "Git",
+            "type": "img",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+          },
+          {
+            "label": "Agile",
+            "type": "img",
+            "src": "https://cdn.simpleicons.org/atlassian/4f46e5"
+          },
+          {
+            "label": "Scrum",
+            "type": "img",
+            "src": "https://cdn.simpleicons.org/scrumalliance/4f46e5"
+          },
+          {
+            "label": "Kanban",
+            "type": "img",
+            "src": "https://cdn.simpleicons.org/trello/4f46e5"
+          },
+          {
+            "label": "TDD",
+            "type": "img",
+            "src": "https://cdn.simpleicons.org/pytest/4f46e5"
+          },
+          {
+            "label": "Jira",
+            "type": "img",
+            "src": "https://cdn.simpleicons.org/jira/4f46e5"
+          },
+          {
+            "label": "Confluence",
+            "type": "img",
+            "src": "https://cdn.simpleicons.org/confluence/4f46e5"
+          },
+          {
+            "label": "Microsoft Azure",
+            "type": "ion",
+            "name": "logo-windows"
+          }
+        ]
+      }
+    ],
+    "publications": [
+      {
+        "year": "2025",
+        "venue": "Nature Communications 16 (1), 6274",
+        "title": "Towards fair decentralized benchmarking of healthcare AI algorithms with the Federated Tumor Segmentation (FeTS) challenge"
+      },
+      {
+        "year": "2024",
+        "venue": "International Conference on Artificial Intelligence and Soft Computing, 316-325",
+        "title": "Pupil Constrictions and Dilations Effects as Data Augmentation on an Iris Recognition CNN Approach"
+      },
+      {
+        "year": "2023",
+        "venue": "Nature Communications 14 (1), 436",
+        "title": "Author Correction: Federated learning enables big data for rare cancer boundary detection"
+      },
+      {
+        "year": "2023",
+        "venue": "(vol 13, 7346, 2022)",
+        "title": "Federated learning enables big data for rare cancer boundary detection (vol 13, 7346, 2022)"
+      },
+      {
+        "year": "2022",
+        "venue": "Nature Communications 13 (1), 7346",
+        "title": "Federated learning enables big data for rare cancer boundary detection"
+      },
+      {
+        "year": "2022",
+        "venue": "arXiv preprint arXiv:2204.07456",
+        "title": "Orcnet: A context-based network to simultaneously segment the ocular region components"
+      },
+      {
+        "year": "2022",
+        "venue": "arXiv preprint arXiv:2201.00267",
+        "title": "On the cross-dataset generalization in license plate recognition"
+      },
+      {
+        "year": "2022",
+        "venue": "Scientific Reports 12 (1), 17989",
+        "title": "A new periocular dataset collected by mobile devices in unconstrained scenarios"
+      },
+      {
+        "year": "2022",
+        "venue": "IEEE Transactions on Information Forensics and Security 18, 190-205",
+        "title": "Exploring bias in sclera segmentation models: A group evaluation approach"
+      },
+      {
+        "year": "2021",
+        "venue": "—",
+        "title": "SSBC 2020: sclera segmentation benchmarking competition in the mobile environment"
+      },
+      {
+        "year": "2020",
+        "venue": "Informatics in Medicine Unlocked 20, 100427",
+        "title": "COVID-19 detection in CT images with deep learning: A voting-based scheme and cross-datasets analysis"
+      },
+      {
+        "year": "2020",
+        "venue": "Data Availability: https://www.kaggle.com/datasets/divyaansingh/dataset15k",
+        "title": "COVID-19 detection in CT images with deep learning: A voting-based scheme and cross-datasets analysis"
+      },
+      {
+        "year": "2020",
+        "venue": "Informatics in Medicine Unlocked 20 (2020): 100427",
+        "title": "COVID-19 detection in CT images with deep learning: A voting-based scheme and cross-datasets analysis"
+      },
+      {
+        "year": "2020",
+        "venue": "Inform Med Unlocked. 2020; 20: 100427",
+        "title": "COVID-19 detection in CT images with deep learning: A voting-based scheme and cross-datasets analysis"
+      },
+      {
+        "year": "2020",
+        "venue": "Article 100427 (10.1016)",
+        "title": "COVID-19 detection in CT images with deep learning: A voting-based scheme and cross-datasets analysis"
+      },
+      {
+        "year": "2020",
+        "venue": "—",
+        "title": "Efficient Deep Learning Model for COVID-19 Detection in large CT images datasets: A cross-dataset analysis"
+      },
+      {
+        "year": "2020",
+        "venue": "2020 IEEE International Joint Conference on Biometrics (IJCB), 1-10",
+        "title": "SSBC 2020: Sclera segmentation benchmarking competition in the mobile environment"
+      },
+      {
+        "year": "2020",
+        "venue": "arXiv preprint arXiv:2003.00833",
+        "title": "CNN hyperparameter tuning applied to iris liveness detection"
+      },
+      {
+        "year": "2020",
+        "venue": "IET Biometrics 9 (2), 68-77",
+        "title": "Deep representations for cross-spectral ocular biometrics"
+      },
+      {
+        "year": "2019",
+        "venue": "2019 32nd SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)",
+        "title": "Simultaneous iris and periocular region detection using coarse annotations"
+      },
+      {
+        "year": "2018",
+        "venue": "2018 IEEE 9th International Conference on Biometrics Theory, Applications and Systems",
+        "title": "Fully convolutional networks and generative adversarial networks applied to sclera segmentation"
+      },
+      {
+        "year": "2018",
+        "venue": "2018 31st SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)",
+        "title": "Robust iris segmentation based on fully convolutional networks and generative adversarial networks"
+      },
+      {
+        "year": "2017",
+        "venue": "Pattern Recognition Letters 88, 49-56",
+        "title": "Combining visual and acoustic features for audio classification tasks"
+      },
+      {
+        "year": "2016",
+        "venue": "2016 IEEE 28th International Conference on Tools with Artificial Intelligence",
+        "title": "Combining visual and acoustic features for bird species classification"
+      },
+      {
+        "year": "2016",
+        "venue": "Computer Science Society (SCCC), 2016 35th International Conference",
+        "title": "Automatic segmentation of audio signal in bird species identification"
+      },
+      {
+        "year": "2016",
+        "venue": "2016 35th International Conference of the Chilean Computer Science Society",
+        "title": "Bird species classification using visual and acoustic features extracted from audio signal"
+      },
+      {
+        "year": "2016",
+        "venue": "Universidade Estadual de Maringá",
+        "title": "Classificação de espécies de pássaros utilizando descritores de características visuais e acústicas"
+      },
+      {
+        "year": "2015",
+        "venue": "Computing Conference (CLEI), 2015 Latin American, 1-11",
+        "title": "Bird species classification using spectrograms"
+      },
+      {
+        "year": "2011",
+        "venue": "Universidade Tecnológica Federal do Paraná",
+        "title": "Um aplicativo para dispositivos móveis voltado para usuários de transporte público"
+      }
+    ],
+    "badges": {
+      "items": [
+        {
+          "alt": "Top languages",
+          "src": "https://github-readme-stats-gamma-ten-87.vercel.app/api/top-langs/?username=diegorafaellucio&layout=compact&theme=default&include_all_commits=true&count_private=true&hide_border=true"
+        },
+        {
+          "alt": "GitHub stats",
+          "src": "https://github-readme-stats-gamma-ten-87.vercel.app/api?username=diegorafaellucio&theme=default&include_all_commits=true&count_private=true&show_icons=true&hide_border=true"
+        }
+      ]
+    }
+  }
+}
